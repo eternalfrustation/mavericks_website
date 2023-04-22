@@ -1,0 +1,220 @@
+/* ########### For Full screen ########### */
+@media (min-width:700px) and (max-width: 990px) {
+  .cont{
+  }
+  .heading{
+    font-size: 2.5rem;
+  }
+  .projects_define{
+    flex-wrap: wrap;
+  }
+}
+
+/* ############## For tablets ############## */
+@media (min-width:500px) and (max-width: 700px) {
+  .contactus_container{
+    flex-direction: column;
+  }
+  .team_container{
+    flex-direction: column;
+  }
+  .projects_define{
+    flex-wrap: wrap;
+  }
+  .projects_define a img{
+    width: 75vw;
+  }
+  .heading{
+    font-size: 2rem;
+  }
+  .menu{
+    flex-wrap: wrap;
+  }
+}
+
+/* ############### For mobile ################# */
+@media (max-width:500px){
+  .contactus_container{
+    flex-direction: column;
+  }
+  .team_container{
+    flex-direction: column;
+  }
+  .projects_define{
+    flex-wrap: wrap;
+  }
+  .heading{
+    font-size: 1rem;
+  }
+  .navbar{
+    display: none;
+  }
+  .header{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/12.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .menu{
+    flex-wrap: wrap;
+    display: none;
+  }
+  .gallery h1{
+    font-size: 1.5rem;
+  }
+  .video h1{
+    font-size: 1.5rem;
+  }
+  .projects h1{
+    font-size: 1.5rem;
+  }
+  .team h1{
+    font-size: 1.5rem;
+  }
+  .team h2{
+    font-size: 1rem;
+  }
+  .projects_define a{
+    margin: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 0.5rem;
+  }
+  .projects_define a img{
+    width: 75vw;
+  }
+  .team{
+    padding-bottom: 0.6rem;
+  }
+  .teammate{
+    margin: 0.8rem;
+    border-radius: 0.5rem;
+    margin-left: 0.6rem;
+  }
+  .team_container{
+    margin-left: 0.6rem;
+    margin-right: 0.5rem;
+    padding: 0.25rem;
+  }
+  .teammate img{
+    width: 4rem;
+    height: 4rem;
+  }
+  .teammatecontent{
+    padding: 0.5rem;
+  }
+  .teammatecontent h3{
+    margin: 0;
+    font-weight: 700;
+    font-size: 1rem;
+  }
+  .teammatecontent h4{
+    margin: 0;
+    font-weight: 300;
+    font-size: 0.8rem;
+    padding-left: 0.2rem;
+  }
+  .teammatecontent p{
+    font-size: 0.5rem;
+    padding-left: 0.2rem;
+  }
+
+  .contact_us h1{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+  .contact_us h2{
+    font-size: 0.75rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  .socialmedia{
+    padding: 0.5rem;
+  }
+  .socialmedia img{
+    height: 1.75rem;
+    width: 1.75rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  .contactus_container{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  .cont{
+    padding-top: 1rem;
+    border-radius: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 1rem;
+    margin: 1rem;
+  }
+  .cont h3{
+    font-size: 1rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.5rem;
+  }
+  .cont h4{
+    font-size: 0.8rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.5rem;
+  }
+  .cont p{
+    font-size: 0.7rem;
+  }
+  .connect a{
+    font-size: 0.8rem;
+    padding: 0.25rem;
+    border-radius: 0.35rem;
+    margin-top: 0.5rem;
+  }
+  .connect a:hover{
+    font-size: 0.8rem;
+    padding: 0.25rem;
+    border-radius: 0.35rem;
+    margin-top: 0.5rem;
+  }
+  .google_form{
+    padding: 1.2rem;
+  }
+  .icon img{
+    height: 1.75rem;
+    width: 1.75rem;
+  }
+  .google_form_heading{
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-weight: 100;
+  }
+  .google_form_heading span{
+    padding-bottom: 0;
+    font-size: 0.75rem;
+    padding-top: 0.4rem;
+    letter-spacing: 0.03rem;
+    font-size: 0.5rem;
+    padding-left: 0.25rem;
+  }
+  .copyright{
+    flex-direction: column;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+  }
+  .copyright_line{
+    padding: 0.2rem;
+    margin-left: 1rem;
+    font-size: 0.5rem;
+    margin-right: 1rem;
+  }
+  .credit{
+    padding: 0.2rem;
+    margin-left: 1rem;
+    font-size: 0.5rem;
+    margin-right: 1rem;
+  }
+
+}
+
+@media (max-width: 300px){
+  .heading{
+    font-size: 0.6rem;
+  }
+}

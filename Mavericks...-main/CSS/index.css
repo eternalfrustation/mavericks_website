@@ -1,0 +1,650 @@
+/* ############### Google Fonts ################## */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
+
+body{
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto Mono', monospace;
+}
+
+
+/* ################ Header ################  */
+
+
+.header{
+  width: auto;
+  height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/235.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+}
+.topnav {
+  background-color: #000000;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 100vw;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 0.5rem 1.5rem;
+  margin: 0.5rem;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 900;
+  border-radius: 1rem;
+}
+
+.topnav a:hover {
+  background-color: #f16d41;
+  color: black;
+}
+
+.topnav a.active {
+  background-color:#f45825;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+
+.heading{
+  align-items: center;
+  font-family: 'Merienda One', cursive;
+  justify-content: center;
+  padding-top: 50vh;
+  padding-left: 20vh;
+  font-size: 3rem;
+}
+.heading h1{
+  color: #f45825;
+}
+
+
+/* ########## Gallery ############ */
+
+
+.gallery{
+  background-color: #e6e6e688;
+  align-items: center;
+  border: 2px solid #e6e6e688;
+  padding-bottom: 1rem;
+}
+
+.gallery h1{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 100;
+  margin: 0;
+  margin-top: 2rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.gallery h1 a{
+  text-decoration: none;
+  font-size: 1.4rem;
+  margin: 0%;
+  padding: 0%;
+}
+
+.gallery hr{
+  width: 5vw;
+  background-color: black;
+  border: 3px solid black;
+  border-radius: 1rem;
+}
+
+/* ########### Our Project ##########  */
+
+
+.projects{
+  background-color: aliceblue;
+  align-items: center;
+  border: 2px solid aliceblue;
+  padding-bottom: 1rem;
+}
+
+.projects h1{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 100;
+  margin: 0;
+  margin-top: 2rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.projects h1 a{
+  text-decoration: none;
+  font-size: 1.4rem;
+  margin: 0%;
+  padding: 0%;
+}
+
+.projects hr{
+  width: 5vw;
+  background-color: black;
+  border: 3px solid black;
+  border-radius: 1rem;
+}
+
+.projects_define{
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.projects_define a{
+  margin: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  border-radius: 1rem;
+}
+.projects_define a img{
+  width: 10rem;
+  height: 10rem;
+  border-radius: 1rem;
+}
+.projects_define a img:hover{
+  filter: opacity(30%);
+}
+
+
+/* ########### Our Team ###########  */
+
+
+.team{
+  background-color: #e6e6e688;
+  align-items: center;
+  border: 2px solid #e6e6e688;
+  padding-bottom: 1rem;
+}
+
+.team h1{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 100;
+  margin: 0;
+  margin-top: 2rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.team hr{
+  width: 5vw;
+  background-color: black;
+  border: 3px solid black;
+  border-radius: 1rem;
+}
+
+.team h2{
+  text-align: center;
+  letter-spacing: 0.1rem;
+  font-size: 2rem;
+  font-weight: 500;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.team_container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding: 0.5rem;
+}
+.teammate{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e6e6e6;
+  border-radius: 1rem;
+  margin: 2rem;
+}
+.teammate img{
+  width: 9rem;
+  height: 9rem;
+}
+.teammatecontent{
+  padding: 1rem;
+}
+.teammatecontent h3{
+  margin: 0;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+.teammatecontent h4{
+  margin: 0;
+  font-weight: 500;
+  font-size: 1.2rem;
+  padding-left: 0.4rem;
+}
+.teammatecontent p{
+  font-size: 0.9rem;
+  padding-left: 0.4rem;
+}
+
+
+/* ############ Contact Us ################ */
+
+
+.contact_us{
+  background-color: #000001;
+  align-items: center;
+  border: 2px solid black;
+}
+
+.contact_us h1{
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 100;
+  margin: 0;
+  margin-top: 2rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.us{
+  color:#f45825;
+  font-weight: 900;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.contact_us h2{
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 300;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.contact_us hr{
+  color: white;
+  width: 5vw;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  border: 3px solid white;
+  border-radius: 1rem;
+}
+
+.socialmedia{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.socialmedia img{
+  height: 2.5rem;
+  width: 2.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.socialmedia a{
+  filter: grayscale(50%);
+
+
+}
+.socialmedia a:hover{
+  filter: grayscale(0%);
+  cursor: pointer;
+}
+
+/* Contact Us Container  */
+
+.contactus_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-bottom: 3rem;
+}
+
+.cont{
+  padding-top: 1.5rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 1rem;
+  background-color: rgba(60, 60, 60, 0.742);
+  padding-left: 1rem;
+  padding-right: 2rem;
+  margin: 2rem;
+}
+
+.cont h3{
+  color: white;
+  margin: 0;
+  font-size: 1.3rem;
+  padding-top: 0.8rem;
+  padding-bottom: 0.6rem;
+}
+.cont h4{
+  color: white;
+  margin: 0;
+  padding-top: 0.4rem;
+  padding-bottom: 1rem;
+}
+.cont p{
+  color: white;
+  margin: 0;
+  padding-bottom: 0.6rem;
+
+}
+.connect{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+.connect a{
+  align-items: center;
+  text-align: center;
+  background-color: rgb(0, 0, 165);
+  padding: 0.5rem;
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+}
+.connect a:hover{
+  align-items: center;
+  text-align: center;
+  background-color: blue;
+  padding: 0.5rem;
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+}
+
+
+/* ######### Footer ###########  */
+
+
+/* Google form section  */
+
+.google_form{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding: 2rem;
+  background-color: #e6e6e6;
+}
+
+.icon img{
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+.google_form_heading{
+  padding: 1rem;
+  font-size: 2rem;
+  font-weight: 100;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.google_form_heading span{
+  padding-bottom: 0;
+  font-size: 1.5rem;
+  padding-top: 0.7rem;
+  letter-spacing: 0.05rem;
+  font-size: 1rem;
+  padding-left: 0.5rem;
+}
+
+/* Copyright Section  */
+
+.copyright{
+  display: flex;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.copyright_line{
+  align-items: center;
+  text-align: center;
+  padding: 0.25rem;
+  margin-left: 2rem;
+  font-size: 0.8rem;
+  margin-right: 2rem;
+}
+.credit{
+
+  align-items: center;
+  text-align: center;
+  padding: 0.25rem;
+  margin-left: 2rem;
+  font-size: 0.8rem;
+  margin-right: 2rem;
+}
+
+.credit h3 a{
+  text-decoration: none;
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ######## About Section #########  */
+
+.about{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about h1{
+  font-size: 2rem;
+  color: #f45825;
+  font-family: 'Merienda One', cursive;
+  margin: 0;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.about h2{
+  font-size: 1.5rem;
+  color: #f45825;
+  font-family: 'Merienda One', cursive;
+  margin: 0;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.about h3 span{
+  font-size: 1rem;
+  color: #f45825;
+  font-family: 'Merienda One', cursive;
+  margin: 0;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.obj3{
+  font-size: 1rem;
+  color: black;
+  font-family: 'Merienda One', cursive;
+  margin: 0.5rem;
+  text-align: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.objectives1{
+  text-align: center;
+}
+.objectives{
+  font-size: 1rem;
+  text-align: left;
+  margin: 0.5rem;
+  color: black;
+  font-family: 'Merienda One', cursive;
+}
+
+.obj2{
+  font-size: 1rem;
+  color: #f45825;
+  font-family: 'Merienda One', cursive;
+  margin: 0;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ################ Gallery Section ########### */
+
+.gallery{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery h1{
+  font-size: 2rem;
+  color: #f45825;
+  font-family: 'Merienda One', cursive;
+  margin: 0;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.gallery h3{
+  font-size: 1rem;
+  color: black;
+  font-family: 'Merienda One', cursive;
+  margin: 0.5rem;
+  text-align: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.main_image{
+  height: 80vh;
+  border: 2px solid #f45825;
+  border-radius: 1rem;
+  width: 70vw;
+  margin-bottom: 2rem;
+}
+
+.gallery_images img{
+  height: 40vh;
+  border: 2px solid #f45825;
+  border-radius: 1rem;
+  width: 35vw;
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+}
+
+.gallery_images{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ################# Contact Section #################  */
+
+

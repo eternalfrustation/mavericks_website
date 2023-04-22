@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Mavericks</title>
+  <link rel="icon" type="image/x-icon" href="../images/mavericks-removebg-preview.png">
+  <link rel="stylesheet" href="../CSS/index.css">
+  <link rel="stylesheet" href="./CSS/responsiveness.css">
+</head>
+<body>
+  <header class="header">
+    <div class="topnav" id="myTopnav">
+      <a href="../index.html">Home</a>
+      <a href="./gallery.html">Gallery</a>
+      <a href="./project.html">Project</a>
+      <a href="./team.html">Team</a>
+      <a href="./about.html">About</a>
+      <a href="#" class="active">Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <div class="heading">
+      <h1>Contact</h1>
+    </div>
+  </header>
+
+  <!-- ############# SOme JS ############  -->
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
+</body>
+</html>
